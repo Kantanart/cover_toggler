@@ -1,7 +1,5 @@
 function init_toggler(){
-     $('.toggler_hide').hide();
-     
-     
+     $('.toggler_hide').hide(); 
 }
 
 function SwitchClick(){
