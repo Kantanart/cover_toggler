@@ -1,0 +1,83 @@
+<form action="http://mls-cr.com/en/search-properties" method="get" id="form" enctype="multipart/form-data">
+  <!-- Default fieldset -->
+  <div class="field z3cformInlineValidation kssattr-fieldname-form.widgets.location_state" id="formfield-form-widgets-location_state">
+    <label for="form-widgets-location_state" class="horizontal">
+        Location
+    </label>
+
+      <div class="fieldErrorBox">
+      </div>
+        <select id="form-widgets-location_state" name="form.widgets.location_state:list" class="select-widget choice-field" size="1">
+          <option id="form-widgets-location_state-novalue" value="--NOVALUE--"> </option>
+          <option id="form-widgets-location_state-0" value="Alajuela">Alajuela</option>
+          <option id="form-widgets-location_state-1" value="Cartago">Cartago</option>
+          <option id="form-widgets-location_state-2" value="Guanacaste">Guanacaste</option>
+          <option id="form-widgets-location_state-3" value="Heredia">Heredia</option>
+          <option id="form-widgets-location_state-4" value="Lim\xf3n">Limón</option>
+          <option id="form-widgets-location_state-5" value="Puntarenas">Puntarenas</option>
+          <option id="form-widgets-location_state-6" value="San Jos\xe9">San José</option></select>
+          <input name="form.widgets.location_state-empty-marker" type="hidden" value="1">
+      </div>
+      
+      <div class="field z3cformInlineValidation kssattr-fieldname-form.widgets.listing_type" id="formfield-form-widgets-listing_type">
+        <label for="form-widgets-listing_type" class="horizontal">
+          Listing Type
+        </label>
+
+          <div class="fieldErrorBox">
+          </div>
+          <span class="option">
+            <input type="checkbox" id="form-widgets-listing_type-0" name="form.widgets.listing_type:list" class="checkbox-widget tuple-field" value="rs" checked="checked">
+            <label for="form-widgets-listing_type-0">
+            <span class="label">Residential Sale</span>
+            </label>
+          </span>
+
+          <span class="option">
+            <input type="checkbox" id="form-widgets-listing_type-1" name="form.widgets.listing_type:list" class="checkbox-widget tuple-field" value="ll" checked="checked">
+            <label for="form-widgets-listing_type-1">
+            <span class="label">Land Listing</span>
+            </label>
+          </span>
+
+          <span class="option">
+            <input type="checkbox" id="form-widgets-listing_type-2" name="form.widgets.listing_type:list" class="checkbox-widget tuple-field" value="cs" checked="checked">
+            <label for="form-widgets-listing_type-2">
+            <span class="label">Commercial Sale</span>
+            </label>
+          </span>
+
+          <span class="option">
+            <input type="checkbox" id="form-widgets-listing_type-3" name="form.widgets.listing_type:list" class="checkbox-widget tuple-field" value="rl" checked="checked">
+            <label for="form-widgets-listing_type-3">
+            <span class="label">Residential Lease</span>
+            </label>
+          </span>
+
+          <span class="option">
+            <input type="checkbox" id="form-widgets-listing_type-4" name="form.widgets.listing_type:list" class="checkbox-widget tuple-field" value="cl" checked="checked">
+            <label for="form-widgets-listing_type-4">
+            <span class="label">Commercial Lease</span>
+            </label>
+          </span>
+          <input name="form.widgets.listing_type-empty-marker" type="hidden" value="1">
+      </div>
+      <div class="field z3cformInlineValidation kssattr-fieldname-form.widgets.price_min" id="formfield-form-widgets-price_min">
+        <label for="form-widgets-price_min" class="horizontal">
+          Price
+        </label>
+        <div class="fieldErrorBox">
+        </div>
+          <input id="form-widgets-price_min" name="form.widgets.price_min" class="text-widget int-field" value="" type="text">
+      </div>
+      <div class="field z3cformInlineValidation kssattr-fieldname-form.widgets.price_max" id="formfield-form-widgets-price_max">
+        <label for="form-widgets-price_max" class="horizontal">-</label>
+        <div class="fieldErrorBox">
+        </div>
+        <input id="form-widgets-price_max" name="form.widgets.price_max" class="text-widget int-field" value="" type="text">
+      </div>
+      <!-- Secondary fieldsets -->
+      <div class="formControls">
+      <input id="form-buttons-search" name="form.buttons.search" class="submit-widget button-field" value="Search" type="submit">
+      </div>
+</form>
